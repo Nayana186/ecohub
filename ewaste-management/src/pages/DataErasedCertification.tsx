@@ -15,7 +15,6 @@ function DataErasedCertification() {
             padding: "20px",
             marginTop: "20px",
             backgroundColor: "#f1f8f4",
-            color:"#000",
           }}
         >
           <h3>Certificate ID: {cert.certId}</h3>
