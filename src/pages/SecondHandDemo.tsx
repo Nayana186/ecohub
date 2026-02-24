@@ -54,7 +54,8 @@ const SecondHandDemo: React.FC<Props> = ({ user, setUser, cart, setCart }) => {
               padding: 16,
               borderRadius: 10,
               background: "#fff",
-              width: 250
+              width: 250,
+            color:"#000",
             }}
           >
             <h3 style={{ color: "#2e7d32" }}>{item.name}</h3>

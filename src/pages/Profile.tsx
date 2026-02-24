@@ -14,7 +14,8 @@ const Profile: React.FC<Props> = ({ user }) => {
         padding: 16,
         borderRadius: 10,
         background: "#fff",
-        maxWidth: 400
+        maxWidth: 400,
+        color:"#000",
       }}>
         <p><strong>Name:</strong> {user.name}</p>
         <p><strong>Email:</strong> {user.email}</p>
